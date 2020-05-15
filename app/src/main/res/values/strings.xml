@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ivan</string>
+    <string name="home">Home</string>
+    <string name="daily">Daily</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music</string>
+    <string name="email">ivan.xtkj1@gmail.com</string>
+    <string name="notelp">081991123207</string>
+    <string name="profile">Profile</string>
+    <string name="NamaSendiri">Andi Muhammad Ivan</string>
+    <string name="TentangDiri">Pria yang lahir pada tanggal 7 Juli 1999 di kota Jakarta</string>
+    <string name="Interest">Aku memiliki hobi yang berkaitan dengan musik dan juga
+        bermain game. Cita-citaku dulu ingin menjadi seorang gitaris, karena dulu pernah mengisi
+        di beberapa acara band. Aku kuliah di prodi Teknik Informatika karena
+        ketertarikan dengan dunia game, dan ingin membuat game saya sendiri.</string>
+</resources>

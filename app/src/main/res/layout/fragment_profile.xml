@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home_img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:baseline="5dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/colorNavigationText"
+        android:layout_below="@+id/home_img" />
+    <ImageView
+        android:id="@+id/home_img_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/poto" />
+    <TextView
+        android:id="@+id/home_tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NamaSendiri"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/AquaDanon"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/home_img_profile" />
+    <TextView
+        android:id="@+id/home_tv_tentangdiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TentangDiri"
+        android:gravity="center"
+        android:textColor="@color/whitethree"
+        android:layout_below="@+id/home_tv_nama" />
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/whitethree"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/home_tv_tentangdiri" />
+
+    <Button
+        android:id="@+id/home_btn_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whitethree"
+        android:textAllCaps="false"
+        android:background="@drawable/ic_email"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/View1"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_btn_msg"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="20dp"
+        android:text="EMAIL"
+        android:textColor="@color/whitethree" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/email"
+        android:textColor="@color/whitethree" />
+
+    <Button
+        android:id="@+id/home_btn_phn"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/View1"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ic_phone"
+        android:textAllCaps="false"
+        android:textColor="@color/whitethree" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_btn_phn"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="0dp"
+        android:text="Phone"
+        android:textColor="@color/whitethree" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/notelp"
+        android:textColor="@color/whitethree" />
+
+</RelativeLayout>
